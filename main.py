@@ -38,9 +38,11 @@ data = {
 }
 try:
     print('进行登录...')
+
+    print(email)
     response = json.loads(session.post(url=login_url,headers=header,data=data).text)
     print(response['msg'])
-    print(email)
+    print('email: '+email)
     # 获取账号名称
     info_html = session.get(url=info_url,headers=header).text
 #     info = "".join(re.findall('<span class="user-name text-bold-600">(.*?)</span>', info_html, re.S))
