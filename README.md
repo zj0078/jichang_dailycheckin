@@ -19,7 +19,7 @@
 | SCKEY  |  Sever酱密钥  |
 | TOKEN  |  pushplus密钥  |
 
-[![样例](/assets/img/shiprock.jpg "Shiprock")](https://img.zj0078.pp.ua/file/2c2a669e9a8bd558127a7.png)
+[![样例](https://img.zj0078.pp.ua/file/2c2a669e9a8bd558127a7.png)]
 
 
 
