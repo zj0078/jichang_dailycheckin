@@ -18,7 +18,9 @@
 | PASSWD |  账号密码  |
 | SCKEY  |  Sever酱密钥  |
 | TOKEN  |  pushplus密钥  |
-![Uploading image.png…]()
+
+[![样例](/assets/img/shiprock.jpg "Shiprock")](https://img.zj0078.pp.ua/file/2c2a669e9a8bd558127a7.png)
+
 
 
 3. 到`Actions`中创建一个workflow，运行一次，以后每天项目都会自动运行。
