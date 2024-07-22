@@ -24,12 +24,13 @@ def push(content):
 
 # 会不定时更新域名，记得Sync fork
 
-login_url = 'https://ikuuu.pw/auth/login'
-check_url = 'https://ikuuu.pw/user/checkin'
-info_url = 'https://ikuuu.pw/user/profile'
+ikuuu_url= 'https://ikuuu.pw'
+login_url = ikuuu_url+'/auth/login'
+check_url = ikuuu_url+'/user/checkin'
+info_url = ikuuu_url+'/user/profile'
 
 header = {
-        'origin': 'https://ikuuu.pw',
+        'origin': ikuuu_url,
         'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
 }
 data = {
