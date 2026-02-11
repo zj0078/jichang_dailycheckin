@@ -20,6 +20,9 @@ jobs:
           fetch-depth: 0
           # ref: master
 
+      - name: Random Sleep
+        run: sleep $((1 + RANDOM % 300)) # 随机延迟 1-5 分钟          
+
       - name: Set up python
         uses: actions/setup-python@v2
         with:
