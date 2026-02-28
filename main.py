@@ -11,12 +11,12 @@ SCKEY = os.environ.get('SCKEY')
 Token = os.environ.get('TOKEN')
 def push(content):
     if SCKEY != '1':
-        url = "https://sctapi.ftqq.com/{}.send?title={}&desp={}".format(SCKEY, 'ikuuu签到', content)
+        url = "https://sctapi.ftqq.com/{}.send?title={}&desp={}".format(SCKEY, 'ik签到', content)
         requests.post(url)
         print('推送完成')
     elif Token != '1':
         headers = {'Content-Type': 'application/json'}
-        json = {"token": Token, 'title': 'ikuuu签到', 'content': content, "template": "json"}
+        json = {"token": Token, 'title': 'ik签到', 'content': content, "template": "json"}
         resp = requests.post(f'http://www.pushplus.plus/send', json=json, headers=headers).json()
         print('push+推送成功' if resp['code'] == 200 else 'push+推送失败')
     else:
