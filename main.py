@@ -24,7 +24,7 @@ def push(content):
 
 # 会不定时更新域名，记得Sync fork
 
-ikuuu_url= 'https://ikuuu.nl'
+ikuuu_url= 'https://ikuuu.fyi'
 
 login_url = ikuuu_url+'/auth/login'
 check_url = ikuuu_url+'/user/checkin'
